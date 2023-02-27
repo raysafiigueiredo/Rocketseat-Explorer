@@ -1,0 +1,86 @@
+body {
+
+  font-family: 'Open Sans', sans-serif;
+
+text-align: center;
+}
+
+#hero {
+  width: 592px;
+  margin:  0 auto 72px ;
+
+
+
+/* 
+  ESPASSAMENTOS NO CSS:
+
+  o numero 0 é em EM CIMA (TOP);
+  o numero 32 é o lado direito (RIGHT);
+  o numero 72 é em baixo (BOTTOM) ;
+  o numero 48 é no lado esquerdo (LEFT)
+
+*/
+
+
+}
+
+#hero img{
+
+  margin-bottom: 72px;
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+
+  margin-bottom:32px;
+
+}
+
+h1 span {
+
+  font-weight: bold;
+
+}
+
+p{ 
+  
+  font-family: 'Open Sans', sans-serif;
+}
+
+span ,a {
+  color: #d1105a;
+}
+
+p, #footer {
+  color:#4cc9f0
+
+  font-size 14px;
+
+  line-height: 28px;
+}
+
+  #footer a + a{
+
+margin-left: 28px;
+
+  }
+#line {
+width: 568px;
+height: 0px;
+
+margin: 0 auto 8px;
+
+border: 1px  solid #ECEFF2;
+
+}
+
+#balls{
+
+  position:fixed;
+  bottom: 0px;
+  right: 0px;
+
+}
